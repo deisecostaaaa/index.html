@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dengue — Informação e Prevenção</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f7fa;
+      color: #222;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #b71c1c, #e53935);
+      color: white;
+      text-align: center;
+      padding: 55px 20px;
+    }
+    header h1 { font-size: 42px; margin-bottom: 10px; }
+    header p { font-size: 19px; }
+    nav {
+      background: #8e0000;
+      text-align: center;
+      padding: 14px;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 12px;
+      font-weight: bold;
+    }
+    nav a:hover { text-decoration: underline; }
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 35px 20px;
+    }
+    section {
+      background: white;
+      margin-bottom: 25px;
+      padding: 28px;
+      border-radius: 14px;
+      box-shadow: 0 3px 12px rgba(0,0,0,.08);
+    }
+    h2 {
+      color: #b71c1c;
+      margin-bottom: 14px;
+      font-size: 28px;
+    }
+    ul { padding-left: 25px; }
+    li { margin: 8px 0; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+      margin-top: 18px;
+    }
+    .card {
+      background: #fff3f3;
+      border-left: 5px solid #e53935;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .alert {
+      background: #fff3cd;
+      border-left: 6px solid #ffb300;
+    }
+    .important {
+      background: #e8f5e9;
+      border-left: 6px solid #43a047;
+    }
+    footer {
+      background: #8e0000;
+      color: white;
+      text-align: center;
+      padding: 25px;
+      margin-top: 20px;
+    }
+    @media (max-width: 600px) {
+      header h1 { font-size: 32px; }
+      nav a { display: inline-block; margin: 5px 7px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🦟 Tudo sobre a Dengue</h1>
+  <p>Informação, sintomas, prevenção e cuidados</p>
+</header>
+
+<nav>
+  <a href="#oque">O que é</a>
+  <a href="#sintomas">Sintomas</a>
+  <a href="#alerta">Alerta</a>
+  <a href="#prevencao">Prevenção</a>
+  <a href="#tratamento">Tratamento</a>
+</nav>
+
+<main>
+  <section id="oque">
+    <h2>O que é a dengue?</h2>
+    <p>
+      A dengue é uma doença infecciosa causada pelo vírus da dengue e transmitida
+      principalmente pela picada da fêmea do mosquito <strong>Aedes aegypti</strong>.
+      É uma doença importante de saúde pública e pode variar de casos leves a casos graves.
+    </p>
+  </section>
+
+  <section id="sintomas">
+    <h2>🤒 Principais sintomas</h2>
+    <div class="cards">
+      <div class="card"><strong>Febre</strong><br>Febre alta, geralmente de início repentino.</div>
+      <div class="card"><strong>Dor de cabeça</strong><br>É um sintoma bastante comum.</div>
+      <div class="card"><strong>Dores no corpo</strong><br>Podem ocorrer dores musculares e nas articulações.</div>
+      <div class="card"><strong>Náuseas</strong><br>Também podem aparecer enjoo e falta de apetite.</div>
+      <div class="card"><strong>Manchas na pele</strong><br>Algumas pessoas apresentam manchas ou vermelhidão.</div>
+    </div>
+  </section>
+
+  <section id="alerta" class="alert">
+    <h2>⚠️ Sinais de alerta</h2>
+    <p>
+      Alguns sintomas podem indicar agravamento da doença. Procure atendimento
+      médico rapidamente se houver dor abdominal intensa, vômitos persistentes,
+      sangramentos, dificuldade para respirar, sonolência intensa ou piora importante
+      do estado geral.
+    </p>
+  </section>
+
+  <section id="prevencao">
+    <h2>🛡️ Como prevenir?</h2>
+    <ul>
+      <li>Evite deixar água parada em recipientes.</li>
+      <li>Mantenha caixas-d'água bem fechadas.</li>
+      <li>Limpe calhas e recipientes que possam acumular água.</li>
+      <li>Descarte corretamente objetos que possam acumular água.</li>
+      <li>Use telas, roupas que protejam a pele e repelente quando indicado.</li>
+      <li>Ajude a manter sua casa e sua comunidade livres de criadouros.</li>
+    </ul>
+  </section>
+
+  <section id="tratamento" class="important">
+    <h2>💊 Tratamento e cuidados</h2>
+    <p>
+      Não existe um medicamento específico que elimine o vírus da dengue.
+      O tratamento costuma envolver hidratação, repouso e acompanhamento dos sintomas.
+      Em caso de suspeita de dengue, procure um serviço de saúde para receber orientação.
+    </p>
+    <p style="margin-top:12px;">
+      <strong>Importante:</strong> não tome medicamentos por conta própria.
+      Alguns medicamentos podem aumentar o risco de sangramento em casos de dengue.
+    </p>
+  </section>
+
+  <section>
+    <h2>📚 Curiosidade</h2>
+    <p>
+      O mosquito <strong>Aedes aegypti</strong> também pode transmitir outros vírus,
+      como os causadores da chikungunya e da Zika. Por isso, eliminar criadouros
+      ajuda a prevenir várias doenças ao mesmo tempo.
+    </p>
+  </section>
+</main>
+
+<footer>
+  <p>🦟 Combater a dengue é responsabilidade de todos.</p>
+  <p>Site educativo sobre prevenção e cuidados.</p>
+</footer>
+
+</body>
+</html>
